@@ -86,17 +86,19 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4">
           <a
             href="#projects"
-            className="inline-flex items-center justify-center gap-2 px-8 py-4 font-medium text-base rounded-none transition-all duration-200 group"
+            className="inline-flex items-center justify-center gap-2 px-8 py-4 font-medium text-base rounded-none transition-all duration-300 group"
             style={{
               background: 'var(--accent)',
-              color: '#fdfaf5',
+              color: '#ffffff',
             }}
-            onMouseEnter={(e) =>
-              ((e.target as HTMLElement).style.background = 'var(--text-primary)')
-            }
-            onMouseLeave={(e) =>
-              ((e.target as HTMLElement).style.background = 'var(--accent)')
-            }
+            onMouseEnter={(e) => {
+              (e.target as HTMLElement).style.background = 'var(--text-primary)';
+              (e.target as HTMLElement).style.color = 'var(--bg)';
+            }}
+            onMouseLeave={(e) => {
+              (e.target as HTMLElement).style.background = 'var(--accent)';
+              (e.target as HTMLElement).style.color = '#ffffff';
+            }}
           >
             View My Work
             <ArrowDown size={16} className="group-hover:translate-y-0.5 transition-transform" />

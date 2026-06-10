@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react'
 
 const skills = [
+  { name: 'UI/UX Design', desc: 'Design intelligence, modern aesthetics & accessible interfaces' },
   { name: 'Python', desc: 'Automation, scripting, data workflows' },
   { name: 'Web Development', desc: 'Full-stack, responsive, modern frameworks' },
   { name: 'WooCommerce', desc: 'E-commerce setup, payment integration, plugins' },

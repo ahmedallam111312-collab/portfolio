@@ -6,20 +6,6 @@ import { ExternalLink, ArrowUpRight } from 'lucide-react'
 const projects = [
   {
     number: '01',
-    title: 'Darwish Market',
-    description:
-      'E-commerce platform built from scratch. Features robust product management, secure payment integration, and responsive design optimized for conversion.',
-    longDescription:
-      'A fully custom WooCommerce build covering catalog architecture, payment gateway integration, inventory sync, and mobile-first responsive design — engineered for real-world retail performance.',
-    tags: ['WooCommerce', 'WordPress', 'E-commerce'],
-    link: 'https://darwishmarket1.com',
-    category: 'E-Commerce',
-    year: '2024',
-    accent: '#c8622a',
-    stat: { value: '100+', label: 'Products Listed' },
-  },
-  {
-    number: '02',
     title: 'Smart Pregnancy App',
     description:
       'An interactive medical web application for monitoring maternal health indicators and tracking Gestational Diabetes Mellitus (GDM) — built with clinical accuracy at its core.',
@@ -33,18 +19,74 @@ const projects = [
     stat: { value: 'GDM', label: 'Risk Tracking' },
   },
   {
+    number: '02',
+    title: 'NatalCare Connect',
+    description:
+      'A comprehensive platform for maternal healthcare management, facilitating seamless communication between expecting mothers and healthcare providers.',
+    longDescription:
+      'Engineered to streamline maternity care by providing a secure, centralized dashboard for tracking appointments, medical history, and direct communication, ensuring mothers receive timely and personalized care.',
+    tags: ['Healthcare', 'Telemedicine', 'Next.js'],
+    link: 'https://natalcare-connect.vercel.app/login',
+    category: 'Healthcare Tech',
+    year: '2024',
+    accent: '#d45d79',
+    stat: { value: 'Care', label: 'Maternal Focus' },
+  },
+  {
     number: '03',
+    title: 'Inventory Scan Pro',
+    description:
+      'An advanced inventory management system with scanning capabilities to optimize warehouse operations and stock tracking.',
+    longDescription:
+      'A robust business solution that digitizes inventory workflows. Features real-time stock updates, barcode scanning integration, and detailed analytics to prevent stockouts and improve operational efficiency.',
+    tags: ['Business Tool', 'Inventory', 'Automation'],
+    link: 'https://inventory-scan-pro.vercel.app/login',
+    category: 'Business Tools',
+    year: '2024',
+    accent: '#d97706',
+    stat: { value: 'Pro', label: 'Stock Tracking' },
+  },
+  {
+    number: '04',
     title: 'Clock-In Connect',
     description:
       'A streamlined employee attendance management system with an organized dashboard for tracking work hours, shifts, and workforce analytics.',
     longDescription:
       'A business automation tool that replaces manual timesheets with a clean dashboard. Tracks clock-in/out events, calculates hours, flags anomalies, and exports reports — giving managers real-time workforce visibility.',
     tags: ['Business Automation', 'Time Management'],
-    link: 'https://clock-in-connect.vercel.app/',
+    link: 'https://clock-in-connect.vercel.app/auth',
     category: 'Business Tools',
     year: '2024',
     accent: '#2a4a7c',
     stat: { value: '∞', label: 'Hours Tracked' },
+  },
+  {
+    number: '05',
+    title: 'AI LifeOS (Gym App)',
+    description:
+      'A holistic lifestyle and fitness management platform designed to track workouts, health metrics, and daily routines.',
+    longDescription:
+      'Built to act as a personal operating system for health and fitness. Incorporates workout tracking, progress visualization, and personalized insights to help users achieve their wellness goals.',
+    tags: ['Fitness', 'Lifestyle', 'Web App'],
+    link: 'https://ai-lifeos-zeta.vercel.app/auth',
+    category: 'Health & Fitness',
+    year: '2024',
+    accent: '#10b981',
+    stat: { value: 'AI', label: 'Life Management' },
+  },
+  {
+    number: '06',
+    title: 'Darwish Market',
+    description:
+      'E-commerce platform built from scratch. Features robust product management, secure payment integration, and responsive design optimized for conversion.',
+    longDescription:
+      'A fully custom WooCommerce build covering catalog architecture, payment gateway integration, inventory sync, and mobile-first responsive design — engineered for real-world retail performance.',
+    tags: ['WooCommerce', 'WordPress', 'E-commerce'],
+    link: 'https://darwishmarket1.com',
+    category: 'E-Commerce',
+    year: '2024',
+    accent: '#c8622a',
+    stat: { value: '100+', label: 'Products Listed' },
   },
 ]
 
@@ -209,7 +251,7 @@ function FeaturedCard({ project }: { project: Project }) {
               className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium transition-all duration-200 shrink-0"
               style={{
                 background: hovered ? project.accent : 'transparent',
-                color: hovered ? '#fdfaf5' : project.accent,
+                color: hovered ? '#ffffff' : project.accent,
                 border: `1px solid ${project.accent}`,
               }}
             >
@@ -402,18 +444,18 @@ export default function Projects() {
           </div>
           <div className="flex items-center gap-8 md:gap-12">
             <div>
-              <p className="font-serif text-3xl font-bold" style={{ color: 'var(--accent)' }}>3</p>
+              <p className="font-serif text-3xl font-bold" style={{ color: 'var(--accent)' }}>6</p>
               <p className="text-xs font-mono uppercase tracking-widest mt-1"
                 style={{ color: 'var(--text-secondary)' }}>Projects</p>
             </div>
             <div>
-              <p className="font-serif text-3xl font-bold" style={{ color: 'var(--text-primary)' }}>3</p>
+              <p className="font-serif text-3xl font-bold" style={{ color: 'var(--text-primary)' }}>4</p>
               <p className="text-xs font-mono uppercase tracking-widest mt-1"
                 style={{ color: 'var(--text-secondary)' }}>Domains</p>
             </div>
             <p className="text-sm leading-relaxed max-w-xs hidden md:block"
               style={{ color: 'var(--text-secondary)' }}>
-              Spanning healthcare technology, e-commerce, and business automation.
+              Spanning healthcare technology, e-commerce, fitness lifestyle, and business automation.
             </p>
           </div>
         </div>

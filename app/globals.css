@@ -4,21 +4,21 @@
 
 @layer base {
   :root {
-    --bg: #fdfaf5;
-    --bg-secondary: #f9f3e8;
-    --text-primary: #1a1916;
-    --text-secondary: #5a5750;
-    --border: #e0d8cc;
-    --accent: #c8622a;
+    --bg: #09090B;
+    --bg-secondary: #18181B;
+    --text-primary: #FAFAFA;
+    --text-secondary: #A1A1AA;
+    --border: #27272A;
+    --accent: #2563EB;
   }
 
   .dark {
-    --bg: #1a1916;
-    --bg-secondary: #2c2a26;
-    --text-primary: #f9f3e8;
-    --text-secondary: #a09890;
-    --border: #3d3b36;
-    --accent: #e07d45;
+    --bg: #09090B;
+    --bg-secondary: #18181B;
+    --text-primary: #FAFAFA;
+    --text-secondary: #A1A1AA;
+    --border: #27272A;
+    --accent: #2563EB;
   }
 
   html {
