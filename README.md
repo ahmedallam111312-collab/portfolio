@@ -1,31 +1,15 @@
-# Ahmed Mohamed - Developer Portfolio
+# Ahmed Allam — Frontend Web Developer
 
-A modern, responsive personal portfolio built with Next.js, React, and Tailwind CSS. 
-Features a Dark Mode (OLED) aesthetic optimized for performance and accessibility.
+Static personal portfolio built with plain HTML and CSS (no build step, no frameworks, no external JS libraries).
 
-## Features
-- **OLED Dark Mode**: Deep black backgrounds with high contrast text.
-- **Projects Showcase**: Highlighting key projects across Healthcare Tech, E-Commerce, and Business Automation.
-- **Responsive Design**: Mobile-first architecture using Tailwind CSS.
-- **Fast Performance**: Built on Next.js App Router.
+## Selected Projects & Demos
 
-## Tech Stack
-- Next.js (App Router)
-- React
-- Tailwind CSS
-- Lucide Icons
-- Google Fonts (Archivo & Space Grotesk)
-
-## Getting Started
-
-First, install the dependencies:
-```bash
-npm install
-```
-
-Then, run the development server:
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Freshcart Arabic** — Arabic right-to-left storefront UI demo ([Code](https://github.com/ahmedallam111312-collab/freshcart-arabic))
+- **DENVER Clinic** — Bilingual EN/AR clinic landing concept ([Live demo](https://denver-virid.vercel.app))
+- **Natal Care Connect** — Pregnancy-care platform landing concept ([Live demo](https://natal-care-connect.vercel.app))
+- **NatalCare Clinic System** — Offline-first maternal health clinic system ([Code](https://github.com/ahmedallam111312-collab/natal-care-connect))
+- **Smart Pregnancy Assistant** — Firebase, OpenRouter, Capacitor ([Live demo](https://smart-pregnancy-app-deploy.vercel.app) · [Code](https://github.com/ahmedallam111312-collab/smart-pregnancy-app-deploy))
+- **AttendQR** — QR attendance system concept ([Live demo](https://clock-in-connect.vercel.app))
+- **Inventory Scan Pro** — Arabic supermarket inventory concept ([Live demo](https://inventory-scan-pro.vercel.app))
+- **AI LifeOS** — AI companion app concept ([Live demo](https://ai-lifeos-zeta.vercel.app))
+- **Orbital Insight** — Satellite imagery and soil data web app (FastAPI backend with Leaflet map interface)
